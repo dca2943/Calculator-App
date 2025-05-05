@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+/* Wrapper container */
+#wrapper {
+  background: rgb(105, 103, 103);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Calculator display screen */
+#screen {
+  background: #d3d3d3;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Button layout */
+.calc {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Button rows */
+.button-row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Calculator buttons */
+button {
+  padding: 15px;
+  font-size: 18px;
+  width: 50px;
+  background: #d3d3d3;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background: #0056b3;
+}
